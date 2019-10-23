@@ -1,0 +1,11 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+}
