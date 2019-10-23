@@ -1,0 +1,17 @@
+apply plugin: 'kotlin'
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << "-Xmaxerrs" << "99999"
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+}
+
+group 'io.supercharge.compositesdk'
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

@@ -1,0 +1,11 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+**/build
+/captures
+.externalNativeBuild
+/nexus.properties
+**/crashlytics-build.properties
+**/com_crashlytics_export_strings.xml
