@@ -1,3 +1,9 @@
 package io.supercharge.module
 
-object ModuleClass
+// This import is not visible for Android Studio
+import io.supercharge.sdk.SdkClass
+
+object ModuleClass {
+
+    fun createSdkClass() = SdkClass("")
+}

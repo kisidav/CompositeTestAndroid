@@ -1,2 +1,4 @@
+includeBuild ('CompositeSdk')
+
 include ':app', ':module'
 rootProject.name='CompositeAndroid'
